@@ -2,9 +2,9 @@
 
 This discord bot allows you to easily play the old game of Kiss, Marry, Avoid with your friends. Relive your elementary school days online.
 
-[I used this repo as a abse to learn more about discord bots and discord.js. Check it out!](https://gist.github.com/eslachance/3349734a98d30011bb202f47342601d3)
+[I used this repo as a base to learn more about discord bots and discord.js. Check it out!](https://gist.github.com/eslachance/3349734a98d30011bb202f47342601d3)
 
-##Setup
+## Setup
 >If you do not already have a bot account, find a tutorial and make one! It's interesting and a lot of fun. I used [this tutorial](https://anidiots.guide/first-bot/your-first-bot). 
 
 - Clone this repo into a folder somewhere on your computer.
@@ -20,7 +20,7 @@ node index.js
 
 With a little luck, your bot should start! 
 
-##Adding Characters
+## Adding Characters
 >This bot relies on YOUR entries to play. You can add as many characters as you want. The bot will send three random entries every time. 
 
 To add characters, open `index.js`. On line 61 you will see the following array:
@@ -47,5 +47,5 @@ Fill in the names of the characters you'd like to use. To add photos, create a f
 
 This bot is not limited to only three characters. Add as many as you like! to do so, just add another entry to the array useing `{name: "character#", image: "./images/character#.jpg"}(,)`
 
-##Using the bot
+## Using The Bot
 To have the bot play the game, just enter `+kma` in your discord text channel. Your new bot should obey your command. Have fun!
