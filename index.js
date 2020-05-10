@@ -74,7 +74,7 @@ client.on("message", async message => {
     //message.channel.send(person.name);
     //message.channel.image(person.image);
 
-    message.channel.send("Here are your Kiss/Marry/Kill candidates!");
+    message.channel.send("Here are your Kiss/Marry/Avoid candidates!");
     message.channel.send("Who will you :kiss:? Who will you :ring:? Who will you :skull:? Add Reactions to vote!")
 
     //print character 1
