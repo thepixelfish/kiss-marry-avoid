@@ -54,17 +54,14 @@ client.on("message", async message => {
   
   // Let's go with a few common example commands! Feel free to delete or change those.
   
-  if(command === "fmk") {
+  if(command === "kma") {
     //Finds three random characters and asks the server to react with their choice. 
     
     //array of characters 
     let characters = [
-      {name: "Miku", image: "./images/miku.jpg"},
-      {name: "Cloud", image: "./images/cloud.jpg"},
-      {name: "Obama", image: "./images/obama.jpg"},
-      {name: "Keroppi", image: "./images/keroppi.jpg"},
-      {name: "Mario", image: "./images/mario.png"},
-      {name: "Yoshi", image: "./images/yoshi.png"}
+      {name: "character1", image: "./images/character1.jpg"},
+      {name: "character2", image: "./images/character2.jpg"},
+      {name: "character3", image: "./images/character3.jpg"}
     ];
 
     //shuffle the array so there are no duplicates
